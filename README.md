@@ -1,10 +1,12 @@
 ## Dokumentasi API - Praktikum CRUD
 
 Tampilan Web
-<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/e660ba36-f417-4585-af83-07f750b756ee" />
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/b7a2d730-5f92-46ab-ac00-c0c7af5d0f34" />
+
 
 Tampilan Database
-<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/90c1059c-1aac-4cd0-85d6-1b1cc85b18d6" />
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4208932-11de-44ce-b01d-929eff678255" />
+
 
 ### 1. Create User
 **Method:** `POST`  
@@ -24,7 +26,7 @@ Tampilan Database
   "status": "success",
   "data": {
     "age": 25,
-    "id": "d1be5c98-1bef-41c5-935b-4bdaf8b0945e",
+    "id": "841d3394-7810-46ff-bdb2-da4035e0fc74",
     "name": "Praktikum1"
   }
 }
@@ -54,6 +56,11 @@ Tampilan Database
       "age": 20,
       "id": "691a3070-405a-4862-93fc-ab11a5b12b03",
       "name": "Indra Hafid Saputra"
+    },
+    {
+      "age": 25,
+      "id": "841d3394-7810-46ff-bdb2-da4035e0fc74",
+      "name": "Update PRAK1"
     }
   ]
 }
@@ -68,7 +75,7 @@ Tampilan Database
 **Request Body:**
 ```json
 {
-  "age": 5,
+  "age": 25,
   "name": "Update PRAK1"
 }
 ```
@@ -78,8 +85,8 @@ Tampilan Database
 {
   "status": "success",
   "data": {
-    "age": 5,
-    "id": "d1be5c98-1bef-41c5-935b-4bdaf8b0945e",
+    "age": 25,
+    "id": "841d3394-7810-46ff-bdb2-da4035e0fc74",
     "name": "Update PRAK1"
   }
 }
@@ -94,6 +101,6 @@ Tampilan Database
 **Response (200 OK):**
 ```json
 {
-  "status": "success delete user with id d1be5c98-1bef-41c5-935b-4bdaf8b0945e"
+    "status": "success delete user with id 841d3394-7810-46ff-bdb2-da4035e0fc74"
 }
 ```
